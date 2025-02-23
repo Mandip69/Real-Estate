@@ -15,9 +15,9 @@ export default function Navbar() {
           <a href="/" className="text-green-500 border-b-2 border-green-500">Home</a>
         </li>
         <li><a href="/AboutPage" className="hover:text-green-500">About</a></li>
-        <li><a href="#" className="hover:text-green-500">Property</a></li>
-        <li><a href="#" className="hover:text-green-500">Blog</a></li>
-        <li className="relative">
+        <li><a href="/PropertyList" className="hover:text-green-500">Property</a></li>
+        <li><a href="BlogPage" className="hover:text-green-500">Blog</a></li>
+        {/* <li className="relative">
           <button
             onClick={() => setIsPagesOpen(!isPagesOpen)}
             className="hover:text-green-500 flex items-center"
@@ -40,7 +40,7 @@ export default function Navbar() {
               <li><a href="#" className="block px-4 py-2 hover:bg-gray-100">Page 3</a></li>
             </ul>
           )}
-        </li>
+        </li> */}
         <li><a href="/contact" className="hover:text-green-500">Contact</a></li>
       </ul>
 
