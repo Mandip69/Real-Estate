@@ -35,7 +35,7 @@ export default function Navbar() {
           </button>
           {isPagesOpen && (
             <ul className="absolute top-8 left-0 bg-white shadow-md py-2 w-40">
-              <li><a href="#" className="block px-4 py-2 hover:bg-gray-100">Page 1</a></li>
+              <li><a href="#" className="block px-4 py-2 hover:bg-gray-100">Page</a></li>
               <li><a href="#" className="block px-4 py-2 hover:bg-gray-100">Page 2</a></li>
               <li><a href="#" className="block px-4 py-2 hover:bg-gray-100">Page 3</a></li>
             </ul>
